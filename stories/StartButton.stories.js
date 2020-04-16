@@ -8,3 +8,15 @@ export default {
 };
 
 export const MyStartButton = () => <StartButton />;
+
+export const PageWithButtons = () => <div>
+    <div>
+    <StartButton text="Start"/>
+    </div>
+    <div>
+    <StartButton text="Basic"/> 
+    </div>
+    <div>
+    <StartButton text="Advanced" />
+    </div>
+</div>
