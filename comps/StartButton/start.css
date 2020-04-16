@@ -1,22 +1,22 @@
 .startbutton_box {
     background-color: #c8553D;
+    width: 300px;
     color: #FFF;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 50px;
     display: inline-flex;
-    border-radius: 30px;
+    justify-content: center;
+    border-radius: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 60px;
-    padding-right: 60px;
     margin: 20px;
 }
 
-.startbutton_box:hover {
+/* .startbutton_box:hover {
     background-color: white;
     border: 2px solid #c8553D;
     color: #c8553D;
-}
+} */
 
 .startbutton_box_inner::selection {
     background: none;
