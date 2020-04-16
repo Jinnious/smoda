@@ -1,8 +1,8 @@
 import React from 'react';
 import './cb.css';
 
-const BasicButton = ({text, color}) => <div 
-style={{backgroundColor:color}}
+const BasicButton = ({text, bgcolor}) => <div 
+style={{backgroundColor:bgcolor}}
 className="custom_button_box">
     <div className="custom_button_box_inner">
         {text}
@@ -11,6 +11,6 @@ className="custom_button_box">
 
 BasicButton.defaultProps = {
     text: "Default",
-    color: "rgb(242,143,60)"
+    bgcolor: "rgb(242,143,60)"
 }
 export default BasicButton;

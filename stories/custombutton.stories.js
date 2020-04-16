@@ -10,6 +10,6 @@ export default {
 export const MyBasicButton = () => <BasicButton />;
 
 export const PageWithCustomButtons = () => <div>
-    <BasicButton text="Next"/>
-    <BasicButton text="Back" color="rgb(105,138,137)"/>
+    <BasicButton text="Next" />
+    <BasicButton text="Back" bgcolor="rgb(105,138,137)"/>
 </div>
